@@ -15,65 +15,67 @@
         }
 
         .test2 {
-            background-color: rgb(118, 186, 185);
+            background-color: rgb(164, 201, 249);
         }
 
         .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(96, 163, 165);
-  font-weight: bold;
-  text-align: center;
-}
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(164, 201, 249);
+            font-weight: bold;
+            text-align: center;
+            border: solid
+        }
 
-body {
+        .footer:hover {
+            background-color: rgb(233, 116, 87);
+        }
 
-    background-color: rgb(175, 176, 185);
-}
+        .souris {
+            background-color: rgb(164, 201, 249);
+            text-align: center;
+            padding: 25px;
+            border: solid
+        }
 
+        .souris:hover {
+            background-color: rgb(233, 116, 87);
+        }
     </style>
 </head>
 
 <body>
     <div class="container-fluid">
-        <div class="row" style="height: 100px ; " >
-            <div class="col-2 test" ></div>
-            <div class="col-8" style="text-align: center; background-color:rgb(96, 163, 165); padding: 25px;">
-                <h1> BIENVENUE </h1>
-            </div>
+        <div class="row" style="height: 100px;">
+            <div class="col-2 test"></div>
+            <div class="col-8 souris"><h1> BIENVENUE </h1></div>
             <div class="col-2 test"></div>
         </div>
 
-        <div class="row" style="height: 300px ; ">
+        <div class="row" style="height: 300px;">
             <div class="col-2 test"></div>
-            <div class="col-8 test2">
+            <div class="col-8 test2" style="border-top: solid">
 
                 <h4 style="text-align: center; margin-top: 50px;">Sur ce site se trouve :</h4>
-
                 <a href="page2.html" style="text-align: center;">
                     <h4 style="margin-top: 20px;">Mon CV</h4>
                 </a>
                 <h4 style="text-align: center; margin-top: 30px;">Mes projets avec Django</h4>
-
                 <h4 style="margin-top: 50px; text-align: center;"> Bonne découverte !</h4>
             </div>
             <div class="col-2 test"></div>
         </div>
 
-        <div class="row" style="height: 350px" >
+        <div class="row" style="height: 320px">
             <div class="col-2 test"></div>
             <div class="col-8 test2" style="text-align: center;">
                 <img class="img-fluid" src="Ordi.jpeg" alt="" width="500">
             </div>
             <div class="col-2 test"></div>
-
         </div>
-
-                <footer class="footer">PORTFOLIO DE JEREMY</footer>
-           
+        <footer class="footer">PORTFOLIO DE JEREMY</footer>
     </div>
 </body>
-
 </html>
