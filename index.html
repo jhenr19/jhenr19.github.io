@@ -9,13 +9,18 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <style>
         .test {
-            background-color: rgb(175, 176, 185);
+            background-color: rgb(229, 230, 231);
         }
 
         .test2 {
-            background-color: rgb(164, 201, 249);
+            background-color: rgb(255, 255, 255);
         }
 
         .footer {
@@ -23,25 +28,28 @@
             left: 0;
             bottom: 0;
             width: 100%;
-            background-color: rgb(164, 201, 249);
+            background-color: rgb(255, 255, 255);
             font-weight: bold;
             text-align: center;
             border: solid
         }
 
         .footer:hover {
-            background-color: rgb(123, 198, 157);
+            background-color: rgb(179, 237, 205);
         }
 
         .souris {
-            background-color: rgb(164, 201, 249);
+            background-color: rgb(255, 255, 255);
             text-align: center;
-
             border: solid
         }
 
         .souris:hover {
-            background-color: rgb(123, 198, 157);
+            background-color: rgb(179, 237, 205);
+        }
+
+        body {
+            background-color: rgb(255, 255, 255);
         }
     </style>
 </head>
@@ -50,18 +58,17 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-2 test"></div>
-            <div class="col-8 souris">
-                <h2 style="padding: 20px;"> BIENVENUE SUR MON PORTFOLIO </h2>
+            <div class="col-8 souris rounded-4 ">
+                <h2 style="padding: 20px;">BIENVENUE SUR LE PORTFOLIO DE JEREMY HENRION</h2>
             </div>
             <div class="col-2 test"></div>
         </div>
 
         <div class="row">
             <div class="col-2 test"></div>
-            <div class="col-8 test2" style="border-top: solid">
-                <p style="padding-top: 40px;">Bonjour. Je suis un ingénieur diplômé en
-                    Génie des procédés. Après avoir obtenu mon diplôme j'ai pu travailler dans l'informatique en tant
-                    que consultant pour notamment :</p>
+            <div class="col-8 test2">
+                <p style="padding-top: 40px;">Après avoir obtenu mon diplôme en Génie des Procédés j'ai commencé à
+                    travailler dans l'informatique en tant que consultant pour notamment :</p>
                 <ul>
                     <li>Développer mes compétences</li>
                     <li>Découvrir de nombreux domaines</li>
@@ -70,8 +77,8 @@
                 </ul>
                 <p>J'ai pu faire une mission pour une banque dans le domaine des bases de données. Je développe
                     actuellement mes compétences principalement dans le développement web.</p>
-                <p>Sur ce site vous pouvez découvrir mon CV et les applications web que j'ai
-                    réalisées en cliquant sur les liens ci-dessous.</p>
+                <p>Sur ce site vous pouvez découvrir mon CV et mes projets d'applications web en cliquant sur les liens
+                    ci-dessous.</p>
                 <p>Bonne découverte !</p>
             </div>
             <div class="col-2 test"></div>
@@ -95,7 +102,12 @@
             </div>
             <div class="col-2 test"></div>
         </div>
-        <footer class="footer">PORTFOLIO DE JEREMY HENRION</footer>
+        <footer class="footer" style="font-size: 20px;">MON PORTFOLIO
+            <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-henrion/">
+                <i class="fab fa-linkedin fa-1x"></i>
+            </a>
+        </footer>
     </div>
 </body>
+
 </html>

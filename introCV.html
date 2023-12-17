@@ -10,42 +10,60 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styleCV.css">
 
-    <style>
-        .nav {
-           background-color: #3a3537;
-           height: 60px; 
-               
-        }
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
-        .navtexte {
-            text-decoration:none;
-            color:rgb(240, 255, 248);
-            margin: auto
-        }
-
-     
-        .nav:hover {
-            background: #8096df;
-        } 
-
-        .bordure {
-            background-color: #3a3537;
-        }
-    </style>
+        <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row" >
-            <div class="col-1 bordure">  </div>
-                <div class="col-2 nav"> <a class="navtexte" href="index.html" >ACCUEIL PORTFOLIO</a></div>
-                <div class="col-2 nav"> <a class="navtexte" href="introCV.html">ACCUEIL CV</a></div>
-                <div class="col-2 nav"> <a class="navtexte" href="FormationsCV.html">FORMATIONS</a></div>
-                <div class="col-2 nav"> <a class="navtexte" href="ExperienceCV.html">EXPERIENCES</a></div>
-                <div class="col-2 nav"> <a class="navtexte" href="CentreInteretCV.html">CENTRES D'INTERET</a></div>
-                <div class="col-1 bordure"> </div>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand text-uppercase fw-bold" href="index.html">
+                <span class="bg-info bg-gradient p-1 rounded-3 text-light">Accueil portfolio</span> JH
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="introCV.html">ACCUEIL CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FormationsCV.html">FORMATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ExperienceCV.html">EXPERIENCES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#CentreInteretCV">CENTRES D'INTERET</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid" style="margin-top: 56px;">
+        <div class="row">
+            <div class="col-5">
+                <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-henrion/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
         </div>
     </div>
+
+    </div>
+
     <footer class="footer">PORTFOLIO DE JEREMY HENRION</footer>
+
 </body>
+
 </html>
