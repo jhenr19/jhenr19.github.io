@@ -67,7 +67,7 @@
 }
 
 .cc-menu {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../jhenr19.github.io/Images/pancakes.jpg') center center fixed no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/pancakes.jpg') center center fixed no-repeat;
     background-size: cover;
     height: 1400px;
 }
